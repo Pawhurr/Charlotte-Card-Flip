@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Paul Whurr Code Test</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Open+Sans+Condensed:300&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="./images/crown.png"/>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="container board red">
+        <div class="row">
+            <div class="jumbotron pt-1 pb-1">
+                <p class="openSans title1">CHARLOTTE</p>
+                <p class="amatic title2">CARD</p>
+                <p class="amatic title3">FLIP</p>
+            </div>
+        </div>
+        <div class="row" id="playArea">
+            <button class="btn btn-info btn-lg btn-block begin openSans">Click here to begin!</button>
+        </div>
+        <div class="row">
+            <div class="col-6 amatic pOneScore">
+            </div>
+            <div class="col-6 amatic pTwoScore turn">
+            </div>
+        </div>
+        <div class="gameOver">
+            <p class="openSans">Game Over</p>
+            <p class="winner amatic"></p>
+            <button class="btn btn-info playAgain openSans">Play Again?</button>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
